@@ -1,10 +1,10 @@
 
 def my_each(collection)
  
- i=0
- while i < collection.length 
- yield(collection[i])
- i+=1
+ x=0
+ while x< collection.length 
+ yield(collection[x])
+ x+=1
  end 
  collection
 end
